@@ -1,5 +1,4 @@
-import React from "react";
-import metamask from "@/assets/images/icons/Metamask.svg";
+ import metamask from "@/assets/images/icons/Metamask.svg";
 import Binance from "@/assets/images/icons/Binance.svg";
 import TrustWallet from "@/assets/images/icons/Trust-wallet.svg";
 import Alpha from "@/assets/images/icons/Alpha.svg";

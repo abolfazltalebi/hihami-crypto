@@ -1,5 +1,4 @@
-import React from "react";
-import nftHeroSection from "@/assets/images/nft-herosection.webp";
+ import nftHeroSection from "@/assets/images/nft-herosection.webp";
 
 export default function HeroSectionImage() {
   return (
