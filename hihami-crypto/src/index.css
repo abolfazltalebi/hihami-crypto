@@ -14,17 +14,17 @@
   }
 
   body::-webkit-scrollbar-track {
-    background: #feffe5;
+    background: #f0e5ff;
   }
 
   body::-webkit-scrollbar-thumb {
-    background: #ed952b;
+    background: #F81DFB;
     border-radius: 5px;
   }
 
   @supports not selector(::-webkit-scrollbar) {
     body {
-      scrollbar-color: #fefcf7 #e5f2ff;
+      scrollbar-color: #f0e5ff #e5f2ff;
     }
   }
   .container {
