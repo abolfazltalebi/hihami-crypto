@@ -13,7 +13,7 @@ export default function InfluencersCard({ id, name, social, cover, Auser }) {
           src={Auser}
           alt={name}
           className="size-14 sm:size-16 absolute -bottom-8 left-10 transform -translate-x-1/2 rounded-full"
-        />
+        /> 
       </div>
       <div className="flex items-center justify-between mt-8">
         <div className="space-y-2">
