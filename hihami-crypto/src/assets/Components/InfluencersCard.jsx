@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function InfluencersCard({ id, name, social, cover, Auser }) {
   return (
-    <motion.div
+    <motion.div 
       className="rounded-[15px] bg-gradient-to-br from-white/10 to-white/5 flex flex-col gap-4 relative p-3"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
