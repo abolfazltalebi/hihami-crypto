@@ -17,7 +17,7 @@ export const InfluencerItems = [
   },
   {
     id: 2,
-    name: "Bob Williams",
+    name: "Bob Williams", 
     social: "@bobw",
     cover: influencer2,
     Auser: avatar2,
