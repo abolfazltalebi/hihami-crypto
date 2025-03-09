@@ -12,13 +12,13 @@
   body::-webkit-scrollbar {
     width: 10px;
   }
- 
+
   body::-webkit-scrollbar-track {
     background: #f0e5ff;
   }
 
   body::-webkit-scrollbar-thumb {
-    background: #F81DFB;
+    background: #f81dfb;
     border-radius: 5px;
   }
 
@@ -70,5 +70,11 @@
 @layer utilities {
   .hover-header {
     @apply capitalize transition-all duration-300 hover:bg-white hover:-translate-y-1 px-4 py-2 hover:text-[#E58411] rounded-full;
+  }
+  .button-nft {
+    @apply bg-[#F81DFB]/8 text-white px-2.5 py-2.5 rounded-lg transition-all ease-in-out duration-400 cursor-pointer;
+  }
+  .button-nft:hover {
+    @apply bg-[#F81DFB];
   }
 }
